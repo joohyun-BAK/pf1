@@ -1,0 +1,155 @@
+main{
+  margin: 0 auto;
+}
+
+/* 추천항공권 */
+#recommend {  
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#recommend .wrap {
+  padding-left: calc((100% - 1100px) / 2);
+  height: 400px;
+  padding-top: 60px;
+  padding-right: calc((100% - 1100px) / 2);
+ 
+  position: relative;
+}
+#recommend .wrap h2 { 
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+#recommend .wrap ul {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  gap: 25px;
+}
+#recommend .wrap ul li {
+  width: 25%;
+}
+#recommend .wrap ul li a {
+ 
+}
+#recommend .wrap ul li:nth-child(1) a::before{
+  content: "";
+  display: block;
+  clip-path: circle(50% at 50% 50%);
+  background-image: url(../img/re1.png);
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+}
+#recommend .wrap ul li:nth-child(2) a::before{
+  content: "";
+  display: block;
+  clip-path: circle(50% at 50% 50%);
+  background-image: url(../img/re2.png);
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+}
+#recommend .wrap ul li:nth-child(3) a::before{
+  content: "";
+  display: block;
+  clip-path: circle(50% at 50% 50%);
+  background-image: url(../img/re3.png);
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+}
+#recommend .wrap ul li:nth-child(4) a::before{
+  content: "";
+  display: block;
+  clip-path: circle(50% at 50% 50%);
+  background-image: url(../img/re4.png);
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+}
+#recommend .wrap ul li a h3 { 
+  margin-top: 20px;
+  font-weight: 900;
+}
+#recommend .wrap ul li a h4 { 
+  font-size: 14px;
+  line-height: 2.5;
+  color: gray;
+}
+#recommend .wrap ul li a h4 span{  
+  font-size: 19px;
+  font-weight: 700;
+  color: black;
+}
+#recommend .wrap ul li a p { 
+  font-size: 14px;
+  color: gray;
+}
+#recommend .wrap ul hgroup h5 {
+  
+}
+#recommend .wrap ul hgroup h5 a {
+  
+}
+#recommend .wrap > span{  
+  position: absolute;
+  bottom: 40%;
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  /*! z-index: -1; */
+}
+#recommend .wrap span a{  
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px;
+}
+/* 추천혜택 */
+#bonus{
+
+}
+#bonus .wrap{
+   padding-top: 60px;
+  padding-left: calc((100% - 1100px) / 2);
+  height: 200px;
+  padding-right: calc((100% - 1100px) / 2);
+  
+}
+#bonus .wrap h2{
+   font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+#bonus .wrap h3{
+  
+}
+#bonus .wrap h3 a{  
+  width: 100%;
+  display: block;
+  background-color: #ffd7b8;
+  height: 100px;
+  border-radius: 25px;
+  line-height: 2;
+  padding-left: 300px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  position: relative;
+}
+#bonus .wrap h3 a::before{
+  content: "";
+  display: block;
+  background-image: url(../img/bonus.png);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -10px;
+  left: calc(15%);
+}
